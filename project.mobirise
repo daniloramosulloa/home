@@ -38,22 +38,32 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 14,
     "versionPublish": "4.10.3",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "robotsSwitcher": "on",
-    "siteUrl": "",
+    "siteUrl": "https://mycmantenciones.github.io/home/",
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/final-72dpi-myc.jpg-128x157.png",
     "noImageResize": "",
     "gdpr": "",
     "google-analytics": "",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "sitemapSwitcher": "on",
+    "customCookies": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    }
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "MyC Servicios de mantencion SpA",
-        "meta_descr": "mantencion ",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
